@@ -1,0 +1,20 @@
+html, body, div, p, ul, ol, dl, dt, li, table, td, th, thead, tbody, fieldset, form {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+body {
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, tahoma, arial, simsun, 宋体;
+  background-color: rgb(244, 246, 248);
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}

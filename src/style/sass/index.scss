@@ -1,0 +1,40 @@
+// =>S 顶部进度条
+.top-line {
+  background-color: #243443;
+  height: 2px;
+}
+// =>E 顶部进度条
+
+// =>S 侧边栏
+.aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  // height: 100%;
+  bottom: 0;  // 另外一种可以让固定定位的div高度全屏的方式
+  width: 180px;
+  background-color: #2F4050;
+  z-index: 301;
+}
+// =>E 侧边栏
+
+// =>S 主要区域
+.content {
+  padding: 72px 0 0 180px;
+  min-width: 960px;
+}
+
+// =>E 主要区域
+
+// =>S 顶部导航栏
+.top-bar {
+  position: fixed;
+  left: 0;
+  padding-left: 180px;
+  height: 72px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 300;
+}
+// =>E 顶部导航栏
+

@@ -1,0 +1,25 @@
+.top-line {
+  background-color: #243443;
+  height: 2px; }
+
+.aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 180px;
+  background-color: #2F4050;
+  z-index: 301; }
+
+.content {
+  padding: 72px 0 0 180px;
+  min-width: 960px; }
+
+.top-bar {
+  position: fixed;
+  left: 0;
+  padding-left: 180px;
+  height: 72px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 300; }
